@@ -103,7 +103,7 @@ def show_prediction ():
 
         # Make prediction
         predict_CO2 = regressor.predict(prediction_data)[0]
-        st.subheader(f"The Predicted Emission Of CO2 Is {predict_CO2}:.3f")
+        st.subheader(f"The Predicted Emission Of CO2 Is {predict_CO2:.3f"} )
     #return predict_CO2   
 
 
